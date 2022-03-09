@@ -1,0 +1,108 @@
+ html{
+    font-size:13px ;
+}
+body{
+  background-color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction:  column;
+}
+
+main{
+   flex: 30;
+   border-bottom: 3px solid rgb(28, 84, 197);
+
+   /* border-radius: 1rem; */
+}
+#canvas{
+    width: 100%;
+    
+}
+
+aside{
+    flex: 1;
+    margin-left: 0.5rem;
+    margin-top: 00.5rem;
+    /* border-radius:100rem; */
+}
+.effects
+{
+   
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+    /* background-color: white; */
+}
+
+button{
+    background: rgb(255, 255, 255);
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem ;
+    font-size: 1.6rem;    
+    font-weight: bolder;
+  border: none;
+  color: rgb(28, 84, 197);
+  background: rgb(202, 223, 244);
+  text-align: center; 
+  /* border-bottom: 1px solid white; */
+  border-radius: 1rem;
+  cursor: pointer;
+  /* padding-right: 0.5rem; */
+  /* padding-left: 0.5rem; */
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  /* border-width: 2rem; */
+}
+button:hover{
+   color: rgb(28, 84, 197);
+  background: rgb(202, 223, 244);
+  border: 2px solid rgb(28, 84, 197);
+}
+.controls{
+  display: flex;
+}
+.controls>button{
+    flex:1;
+    /* border-bottom: none; */
+    text-align: center;
+    padding: 1.6rem 0.5rem 1.6rem 0.5rem;
+}
+@media(min-width : 1000px){
+    body{
+        flex-direction: row;
+    }
+}
+label{
+    font-size: 2rem;
+    /* color: rgb(212, 210, 210); */
+    padding-right: 1.6rem;
+}
+.input_wraper {
+    /* width: 1rem; */
+    border-radius:1rem;
+    background: rgb(28, 84, 197);
+    color: white;
+    padding: 1rem ;
+}
+
+input[type=file] {
+    color: rgb(28, 84, 197);
+    /* background-color: rgb(202, 223, 244); */
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 2rem;
+    border-radius: 0.75rem;
+    background-color: white;
+}
+
+
+input[type=file]:hover{
+    padding:5px; 
+    border:2px solid white; 
+    background-color: rgb(28, 84, 197);
+    color: white;
+    -webkit-border-radius: 2rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
